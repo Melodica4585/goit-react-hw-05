@@ -1,0 +1,12 @@
+.author {
+    font-style: italic;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .content {
+    margin-bottom: 40px;
+    background-color: rgb(230, 218, 218);
+    padding: 15px;
+    border-radius: 12px;
+  }

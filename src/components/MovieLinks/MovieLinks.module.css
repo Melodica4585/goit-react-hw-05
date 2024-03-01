@@ -1,0 +1,25 @@
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 40px;
+  }
+  
+  .link {
+    font-size: 21px;
+    color: whitesmoke;
+    transition: color 200ms cubic-bezier(0.375, 0.885, 0.32, 1.275);
+    background-color: rgb(129, 13, 75);
+    border-radius: 14px;
+    border: 1px solid #d2b1e0;
+    padding: 7px;
+  }
+  
+  .link:hover {
+    color: rgb(249, 6, 177);
+  }
+  
+  .isActive {
+    composes: link;
+    color: rgb(249, 6, 177);
+  }
